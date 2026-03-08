@@ -1,6 +1,6 @@
 # CollabSheets
 
-A lightweight, real-time collaborative spreadsheet — built for the Trademarkia frontend engineering assignment.
+A lightweight, real-time collaborative spreadsheet — built for the Trademarkia frontend engineering assignment by Hariharan G.
 
 **Stack:** Next.js 14 (App Router) · TypeScript · Tailwind CSS · Firebase (Firestore + Auth)
 
@@ -40,15 +40,6 @@ The formula parser covers:
 3. Recursive formula resolution (a formula cell can reference another formula cell).
 4. Circular-reference detection via a `Set<string>` of visited keys passed through recursive calls.
 
-I stopped short of full Excel compatibility (no `IF`, `VLOOKUP`, string functions) because the spec only required SUM and basic arithmetic, and adding more builtins would be marginal value given the time budget.
-
-### What I chose not to build
-- Column/row resize (requires drag logic and persistent width storage — high effort, low signal)
-- Copy/paste across cells (clipboard API is straightforward but not required)
-- Undo/redo (would need an operation log in Firestore; out of scope)
-- Sheet tabs (single-sheet model is sufficient for the demo)
-
----
 
 ## Setup
 
