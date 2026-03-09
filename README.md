@@ -1,10 +1,10 @@
 # CollabSheets
 
-A lightweight, real-time collaborative spreadsheet — built for the Trademarkia frontend engineering assignment by Hariharan G.
+A lightweight, real-time collaborative spreadsheet built  by Hariharan G.
 
 **Stack:** Next.js 14 (App Router) · TypeScript · Tailwind CSS · Firebase (Firestore + Auth)
 
-**Live demo:** _add your Vercel URL here_
+
 
 ---
 
